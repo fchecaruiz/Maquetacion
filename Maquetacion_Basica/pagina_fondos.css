@@ -1,0 +1,42 @@
+.cont_Principal{
+    width: 1260px;
+    height: 700px;
+    border: 10px solid rgb(245, 241, 241);
+    justify-content:center;
+    margin-top: 10px;
+    padding: 0px;
+}
+.borde_negro{
+    border: 1px solid #050505; 
+    padding: -4px;
+    margin-top: 10px;
+    padding: 0px;
+    
+}
+.cont_nav {
+    background-color: #0c0b0b;
+    padding: 5px;
+    margin-bottom: 0px; 
+}
+.nav_menu {
+    display:flex;
+    justify-content: space-around; 
+    list-style-type: style auto;;
+    margin: 1px;
+    padding: 10px;
+}
+.nav_menu,li ,a {
+    color: rgb(208, 224, 215);
+    text-decoration:solid; 
+    font-weight:inherit;
+    padding: 10px 20px;
+}
+img{
+  
+    gap: 10px; /* Espacio entre las imágenes */
+    width: 430px; /* Ajusta el ancho que desees */
+    height: 320px; /* Mantiene la proporción de la imagen */
+    margin: -20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
