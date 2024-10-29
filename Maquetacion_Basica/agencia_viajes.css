@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Monserrat",sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 0px solid blue;
+    height: 100px;
+    padding:40px;
+    background-color: rgb(164, 235, 235);
+    color: red;
+}
+main{
+    font-size: 15px;
+    color: brown;
+    padding: 5px;
+    height: 70px;
+    border: 0px solid orange;
+    background-color:chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetas{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 60px;
+    
+    border: 0px solid violet;
+    padding: 25px;
+    
+}
+.madrid{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    padding:40px;
+    border: 0px solid red;
+    font-style: oblique;
+    color: blueviolet
+}
+.paris{
+    font-family: serif;
+    font-style: italic;
+    padding:35px ;
+    border: 0px solid green;
+    color:red;
+}
+.imagenmadrid{
+    width: 50%;
+    height: auto;
+    margin-right:100px;
+   
+}
+.imagenparis{
+    width: 30%;
+    height: auto;
+    margin-right: 100px;
+}
+.formulario{
+    font-size: 30px;
+    font-family:"lucida sanz";
+    margin: 15px;
+    padding: 10px;
+    border:2px solid rgb(28, 0, 128);
+    display:flex;
+    flex-direction: column;
+    color:chocolate;
+    
+}
+#nombre{
+    border: 1px solid red;
+    margin: 10px;
+}
+#ciudad_salida{
+    border: 1px solid rgb(77, 81, 188);
+    margin: 10px;
+}
+#ciudad_destino{
+    border: 1px solid rgb(77, 81, 188);
+    margin: 10px;
+}
+#numero_personas{
+    border: 1px solid rgb(255, 230, 0);
+    margin: 10px;
+}
+#fecha_salida{
+    border: 1px solid rgb(17, 207, 121);
+    margin: 10px;
+}
+#fecha_llegada{
+    border: 1px solid rgb(17, 207, 121);
+    margin: 10px;
+}
