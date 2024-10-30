@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Agencia de Viajes</title>
+    <link rel="stylesheet" href="agencia_viajes.css">
+</head>
+
+<body>
+    <header>
+        <h1> Mi Agencia de Viajes</h1>
+    </header>     
+    
+    <main> 
+        <h2>La Agencia perfecta para tus buenas vacaciones de calidad, economicas y fiables a buen precio </h2>
+    </main>
+        
+    <section class = "tarjetas">
+         <h2 class="madrid">Madrid
+            <img class = "imagenmadrid" src = "./puerta de alcala.jpg" alt="puerta de alcala">
+            <div>El lugar perfecto para algo nuevo distinto cada dia</div>
+            <dix>¡OFERTA, 4 DIAS Y 3 NOCHES 299€!!!!</div>
+        </h2>
+         <h3 class = "paris"> Paris
+            <img class = "imagenparis" src="./torre eiffel.jpg" alt="torre eiffel">
+            <p>La ciudad mas encantadora de Europa</p>
+            <P>¡OFERTON, FIN DE SEMANA 100€ VUELOS INCLUIDOS</P>
+        </h3>
+    </section>
+    <section class ="formulario">FORMULARIO DE REGISTRO VACACIONAL
+        <input id = "nombre" type="texto" name="nombre" placeholder="Escribe tu nombre"></input>
+        <input id = "ciudad_salida" type = "texto" name=" origen" placeholder="Indica el origen de destino"></input>
+        <input id = "ciudad_destino" type = "texto" name="destino" placeholder="Indica tu destino"></input>
+        <input id = "numero_personas" type = "number" name="numero" placeholder="Indica el numero de personas"></input>
+        <input id = "fecha_salida" type = "date" name="fecha_salida" placeholder="Indica la fecha de salida"></input>
+        <input id = "fecha_llegada" type = "date" name="fecha_llegada" placeholder="Indica la fecha de llegada"></input>
+        <button id = "solicitar_informacion" onclick = "solicitar_informacion()"> Haga "clic" para Solicitar Información</button>
+        <button id = "filtrar_informacion" onclick = "filtrar_informacion()"> Haga "clic" para Filtrar su Información</button>
+        <script src = "agencia_viajes.js"></script>
+    </section>
+</body>
+</html>
